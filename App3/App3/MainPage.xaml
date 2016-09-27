@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="App3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="now_times" Margin="-25,134,-33,0" TextWrapping="Wrap" Text="00:00:00" VerticalAlignment="Top" Height="127" Width="458" HorizontalAlignment="Center" FontWeight="Bold" FontSize="72" FontFamily="MS Gothic" TextAlignment="Center"/>
+        <TimePicker x:Name="this" HorizontalAlignment="Left" Margin="142,293,0,0" VerticalAlignment="Top" ClockIdentifier="24HourClock"/>
+        
+    </Grid>
+</Page>

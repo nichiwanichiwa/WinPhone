@@ -21,5 +21,4 @@ Public NotInheritable Class MainPage
         ' このイベントが自動的に処理されます。
     End Sub
 
-
 End Class
